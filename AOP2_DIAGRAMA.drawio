@@ -1,11 +1,131 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Página-1" id="H9jIY4XVFIayC0-o7ou3">
-    <mxGraphModel dx="1426" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="l3M5r1Fj7HoiWWPENcFY-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="130" y="110" width="500" height="500" as="geometry" />
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="50" width="620" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-3" value="SISTEMA DE MARCAÇÃO DE EXAMES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="294" y="80" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-4" value="Paciente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-7" value="Adminstrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-10" value="Cadastrar usuário" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-11" value="Realizar login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-12" value="Escolher tipo de atendimento" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-13" value="Selecionar exames" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="470" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-14" value="Escolher Horários" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-15" value="Confirmar agendamento" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-16" value="Solicitar lembrete por SMS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="630" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-18" value="Receber preparo por e-mail ou impressão" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="630" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.075;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fehaSS03MOD7FxgPQJ6o-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fehaSS03MOD7FxgPQJ6o-4" target="fehaSS03MOD7FxgPQJ6o-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fehaSS03MOD7FxgPQJ6o-4" target="fehaSS03MOD7FxgPQJ6o-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fehaSS03MOD7FxgPQJ6o-16" target="fehaSS03MOD7FxgPQJ6o-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="430" as="sourcePoint" />
+            <mxPoint x="460" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-26" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="fehaSS03MOD7FxgPQJ6o-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fehaSS03MOD7FxgPQJ6o-18" target="fehaSS03MOD7FxgPQJ6o-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="600" as="sourcePoint" />
+            <mxPoint x="485" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-28" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="fehaSS03MOD7FxgPQJ6o-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-29" value="Cadastrar planos de saúde" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fehaSS03MOD7FxgPQJ6o-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="390" as="sourcePoint" />
+            <mxPoint x="180" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-31" value="Cadastrar Exames" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-32" value="Cadastrar Horários disponíveis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.933;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fehaSS03MOD7FxgPQJ6o-7" target="fehaSS03MOD7FxgPQJ6o-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="fehaSS03MOD7FxgPQJ6o-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="fehaSS03MOD7FxgPQJ6o-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="390" as="sourcePoint" />
+            <mxPoint x="640" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fehaSS03MOD7FxgPQJ6o-15" target="fehaSS03MOD7FxgPQJ6o-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="430" as="sourcePoint" />
+            <mxPoint x="460" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-38" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="fehaSS03MOD7FxgPQJ6o-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.8;exitY=0.92;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fehaSS03MOD7FxgPQJ6o-15" target="fehaSS03MOD7FxgPQJ6o-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="460" as="sourcePoint" />
+            <mxPoint x="370" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fehaSS03MOD7FxgPQJ6o-40" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="fehaSS03MOD7FxgPQJ6o-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
